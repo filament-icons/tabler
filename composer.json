@@ -1,0 +1,32 @@
+{
+    "name": "filament-icons/tabler",
+    "description": "Tabler Icons icon set for Filament",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/filament-icons/tabler",
+    "authors": [
+        {
+            "name": "Dennis Koch",
+            "email": "dennis@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "blade-ui-kit/blade-icons": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FilamentIcons\\Tabler\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FilamentIcons\\Tabler\\TablerServiceProvider"
+            ]
+        }
+    },
+    "support": {
+        "source": "https://github.com/filament-icons/tabler"
+    }
+}
